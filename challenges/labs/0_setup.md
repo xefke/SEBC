@@ -13,7 +13,7 @@ node105.sebc     10.1.1.105       54.72.8.53
 
 Linux Release: Centos 6.5
 
-File Sytem Capacity: (df -h)
+File Sytem Capacity:
 ```
 ssh node101
 Filesystem      Size  Used Avail Use% Mounted on
