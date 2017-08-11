@@ -1,0 +1,1 @@
+*/admin@XEFKE.PA	*
