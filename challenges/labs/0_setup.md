@@ -56,6 +56,7 @@ igneous:x:2900:500::/home/igneous:/bin/bash
 nimbus:x:2800:501::/home/nimbus:/bin/bash
 igneous:x:2900:500::/home/igneous:/bin/bash
 ```
+mfernest: It's good practice to start at UIDs above 1000. The default settings in CM for supporting Kerberos view UIDs < 1000 as privileged.
 
 ```
 pssh -h "nodes.txt" -l root -i "-O StrictHostKeyChecking=no" "cat /etc/group | grep 'rocks\|clouds'"
